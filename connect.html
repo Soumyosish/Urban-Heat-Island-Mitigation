@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background:#55ffe5;
+            font-size:15px;
+        }
+        .container{
+        width:90%;
+        margin:50px auto;
+        font-weight: 30px;
+        font-style: italic;
+        }
+        .contact-box{
+        background: #fff;
+        display:flex;
+
+        }
+        .contact-left{
+        padding:50px;
+        flex-basis: 60%;
+        font-weight: 30px;
+        font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Connect With Us</h1>
+        <p>We could love to respond to your queries and would help us to improve ourselves through your feedback.Feel free to get in touch with us</p>
+    </div>
+    <div class="contact-box">
+    <div class="contact-left">
+        <h3>Sent your request</h3>
+        <form>
+            <div class="input-row">
+                <div class="input-group">
+                    <label>Name</label>
+                    <input type="text" placeholder="Your name">
+                    </div>
+                    <div class="input-group">
+                        <label>Phone-number</label>
+                        <input type="digit" placeholder="+91 1111111111">
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="email jsd.123@gmail.com">
+                            </div>
+                            <div class="input-group">
+                                <label>Subject</label>
+                                <input type="Subject" placeholder="Your feedback"><br>
+                                <label for="file">Upload File as feedback in jpg format:</label>
+                                <input type="file" name="file" id="file" accept=".jpg"><br>
+                                <button type="submit">Submit</buttom>
+                                <button type="reset">Reset</button>
+                            </div>    
+                        </div>
+                </div>
+        </form>
+    </div>
+</body>
+</html>
